@@ -5,7 +5,7 @@ const client = new Client({ intents: [32767] });
 const { readdirSync }= require('fs');
 const {red, blue, yellow, black, cyan, greenBright, green} = require('chalk');
 //****************************[ LOGIN ]********************************//
-client.login('ODkzMTg4NTc5NTIwNTY1MzA5.YVX0rw.Nb6_f3foKmyRxVCAM_nsBPStYkQ');
+client.login('');
 //**************************[ COLLECTION ]*****************************//
 client.commands = new Collection();
 client.aliases = new Collection();
